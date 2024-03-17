@@ -18,7 +18,7 @@ const Register = () => {
       password,
       phone,
     };
-    fetch('http://localhost:3000/register', {
+    fetch('https://real-pink-goose-slip.cyclic.app/users/register', {
       method: 'POST',
       headers: {
         'Content-type': 'application/json',

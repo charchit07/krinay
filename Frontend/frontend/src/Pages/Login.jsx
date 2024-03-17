@@ -11,7 +11,7 @@ const Login = () => {
       email,
       password,
     };
-    fetch("http://localhost:3000/login", {
+    fetch("https://real-pink-goose-slip.cyclic.app/users/login", {
       method: "POST",
       headers: {
         "Content-type": "application/json",

@@ -11,7 +11,7 @@ import axios from "axios";
 
 export const AddTodotoServer = (data) => async (dispatch) => {
   await axios
-    .post("http://localhost:7500/todos", data, {
+    .post("https://real-pink-goose-slip.cyclic.app/todos", data, {
       headers: {
         "Content-type": "application/json",
         Authorization: localStorage.getItem("token"),
@@ -28,7 +28,7 @@ export const AddTodotoServer = (data) => async (dispatch) => {
 export const GetTodoServer = async (dispatch) => {
   dispatch({ type: loading });
   await axios
-    .get("http://localhost:7500/todos", {
+    .get("https://real-pink-goose-slip.cyclic.app/todos", {
       headers: {
         Authorization: localStorage.getItem("token"),
       },
@@ -41,7 +41,7 @@ export const GetTodoServer = async (dispatch) => {
 
 export const TodoUpdate = (data, todoID) => async (dispatch) => {
   await axios
-    .patch(`http://localhost:7500/todos/${todoID}`, data, {
+    .patch(`https://real-pink-goose-slip.cyclic.app/todos/${todoID}`, data, {
       headers: {
         "Content-type": "application/json",
         Authorization: localStorage.getItem("token"),
@@ -59,7 +59,7 @@ export const DeleteServerTodo = (todoID) => async (dispatch) => {
   try {
     let token = localStorage.getItem("token");
     await axios
-      .delete(`http://localhost:7500/todos/${todoID}`, {
+      .delete(`https://real-pink-goose-slip.cyclic.app/todos/${todoID}`, {
         headers: {
           Authorization: token,
         },

@@ -1,0 +1,15 @@
+.navbar{
+   display: flex;
+   justify-content: space-evenly;
+   background-color: #007bff ;
+   padding: 20px;
+}
+
+.register{
+    text-decoration: none;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}

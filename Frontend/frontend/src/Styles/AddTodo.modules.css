@@ -1,0 +1,62 @@
+/* AddTodo.css */
+
+/* Container styling */
+.todo {
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    width: 400px;
+    padding: 20px;
+    margin: 50px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add box shadow */
+    border-radius: 8px; /* Added border radius */
+    background-color: #ffffff;
+    animation: fadeIn 0.5s ease forwards; /* Add animation */
+}
+.heading{
+
+    text-align: center;
+    font-family: sans-serif;
+}
+/* Input styling */
+.field {
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-left: 10%;
+    /* Box shadow for a subtle lift */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    outline: none; /* Remove outline on focus */
+}
+
+/* Button styling */
+.btn {
+    padding: 12px 18px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    /* Box shadow for a subtle lift */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Button hover effect */
+.btn:hover {
+    background-color: #0056b3;
+}
+
+/* Animation keyframes */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

@@ -10,7 +10,6 @@ import {
 import axios from "axios";
 
 export const AddTodotoServer = (data) => async (dispatch) => {
-  // dispatch({type:loading})
   await axios
     .post("http://localhost:7500/todos", data, {
       headers: {
@@ -41,7 +40,6 @@ export const GetTodoServer = async (dispatch) => {
 };
 
 export const TodoUpdate = (data, todoID) => async (dispatch) => {
-  //dispatch({type:loading})
   await axios
     .patch(`http://localhost:7500/todos/${todoID}`, data, {
       headers: {

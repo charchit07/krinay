@@ -1,76 +1,78 @@
 /* Login.modules.css */
 
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f5f5f5; /* Set background color for the body */
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  /* Set background color for the body */
+}
+
+.login-container {
+  width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  /* Add box shadow */
+  animation: slideIn 0.5s ease forwards;
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
   }
-  
-  .login-container {
-    width: 400px;
-    margin: 50px auto;
-    padding: 20px;
-    background-color: #ffffff;
-    border: 1px solid #dddddd;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add box shadow */
-    animation: slideIn 0.5s ease forwards;
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
   }
-  
-  @keyframes slideIn {
-    from {
-      opacity: 0;
-      transform: translateY(-20px);
-    }
-    to {
-      opacity: 1;
-      transform: translateY(0);
-    }
-  }
-  
-  .login-container h1 {
-    text-align: center;
-    margin-bottom: 20px;
-    color: #333333;
-  }
-  
-  .input-group {
-    margin-bottom: 20px;
-  }
-  
-  .input-group label {
-    display: block;
-    margin-bottom: 5px;
-    color: #555555;
-  }
-  
-  .email-input,
-  .password-input {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #cccccc;
-    border-radius: 5px;
-    box-sizing: border-box;
-    transition: border-color 0.3s ease;
-    outline: none;
-  }
-  
-  .email-input:focus,
-  .password-input:focus {
-    border-color: #007bff;
-  }
-  
-  .login-button {
-    width: 100%;
-    padding: 10px;
-    background-color: #007bff;
-    color: #ffffff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
-  
-  .login-button:hover {
-    background-color: #0056b3;
-  }
-  
+}
+
+.login-container h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333333;
+}
+
+.input-group {
+  margin-bottom: 20px;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 5px;
+  color: #555555;
+}
+
+.email-input,
+.password-input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease;
+  outline: none;
+}
+
+.email-input:focus,
+.password-input:focus {
+  border-color: #007bff;
+}
+
+.login-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.login-button:hover {
+  background-color: #0056b3;
+}

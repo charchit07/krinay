@@ -7,7 +7,7 @@
 
 <h1>Tech Stack For Frontend :</h1> <h3>React, Redux, Javascript, Css, Html</h3>
 
-<h1>Tech Stack For Backend :</h1> <h3>NodeJs, Express,Prisma, Prisma-Client, Cors, Jwt , Bcrypt</h3>
+<h1>Tech Stack For Backend:</h1> <h3>NodeJs, Express, Prisma, Prisma-Client, Cors, Jwt, Bcrypt</h3>
 
 <h1>Features :</h1> <h3>Login/Signup Page, AddTodo, Todo</h3>
 

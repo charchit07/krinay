@@ -13,12 +13,12 @@
 
 <h1>Backend Deployment Link </h1>
 
-https://calm-cyan-octopus-wear.cyclic.app
+https://real-pink-goose-slip.cyclic.app
 
 
 <h1>Frontend Deployment Link </h1>
 
-https://friendly-sorbet-912886.netlify.app/
+https://frontend-theta-tawny.vercel.app/
 
 
 <h1>Logo</h1>

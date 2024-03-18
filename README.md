@@ -9,7 +9,7 @@
 
 <h1>Tech Stack For Backend :</h1> <h3>NodeJs, Express,Prisma, Prisma-Client, Cors, Jwt , Bcrypt</h3>
 
-<h1>Features :</h1> <h3>Home Page,Login/Signup Page, Products Page, SingleProducts Page,Wishlist Page, Cart Page,Checkout Page  we added  to our website</h3>
+<h1>Features :</h1> <h3>Login/Signup Page, AddTodo, Todo</h3>
 
 <h1>Backend Deployment Link </h1>
 
@@ -19,11 +19,6 @@ https://real-pink-goose-slip.cyclic.app
 <h1>Frontend Deployment Link </h1>
 
 https://frontend-theta-tawny.vercel.app/
-
-
-<h1>Logo</h1>
-
-![sss](https://user-images.githubusercontent.com/110049484/221616098-49dc4b14-adb3-4276-a83a-435be3fdb5e9.png)
 
 
 <h1>Home Page</h1>
